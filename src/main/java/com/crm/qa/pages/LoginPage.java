@@ -41,7 +41,6 @@ public class LoginPage extends TestBase {
     }
     
     public HomePage login(String un,String pwd){
-    	new WebDriverWait(driver, TestUtil.EXPLICIT_WAIT).until(ExpectedConditions.visibilityOf(username)).click();
     	username.sendKeys(un);
     	password.sendKeys(pwd);
     	loginbtn.click();

@@ -5,8 +5,8 @@
     <classes>
       <class name="com.crm.qa.testcases.HomePageTest">
         <methods>
+          <include name="VerifyHomePageTitleTest"/>
           <include name="tearDown"/>
-          <include name="navigateToHomepage"/>
           <include name="SetUp"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.HomePageTest -->

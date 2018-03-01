@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.HomePageTest">
+      <class name="com.crm.qa.testcases.LoginPageTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="navigateToHomepage"/>
+          <include name="crmLogoImageTest"/>
           <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
+          <include name="LoginTest"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
